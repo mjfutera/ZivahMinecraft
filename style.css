@@ -1,5 +1,5 @@
 /* ZivahowyServer Wordpress template */
-/* v. 1.000 */
+/* v. 1.001 */
 /* By Michal Futera */
 /* http://linktr.ee/mjfutera */
 
@@ -24,11 +24,14 @@ body {
 
 .logo {
     max-width: 250px;
+    border-radius: 100%;
+}
+
+.logo:hover {
     animation-name: spinning360;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-duration: alternate-reverse;
-    border-radius: 100%;
 }
 
 .pinkNeon:hover {
@@ -50,6 +53,10 @@ body {
     animation: glowingShadows 2s infinite
 }
 
-.cartoonFont {
+/* .cartoonFont {
     font-family: 'Mynerve', cursive;
-}
+} */
+
+/* .tintedBackground {
+    background-color: rgba(0, 0, 0, 1);
+} */
