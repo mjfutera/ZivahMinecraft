@@ -1,0 +1,29 @@
+/* ZivahowyServer Wordpress template */
+/* v. 1.000 */
+/* By Michal Futera */
+/* http://linktr.ee/mjfutera */
+
+@keyframes updown {
+    from {
+        border-radius: 0%;
+    }
+    to {
+        border-radius: 100%;
+    }
+}
+
+@keyframes spinning360 {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes glowingShadows {
+    0% { text-shadow: #48abe0 0 0 10px; }
+    50% { text-shadow: blueviolet 0 0 5px; }
+    75% { text-shadow: rebeccapurple 0 0 5px;}
+    100% { text-shadow: #48abe0 0 0 5px; }
+}
