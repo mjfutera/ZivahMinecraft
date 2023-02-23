@@ -4,7 +4,10 @@
 /* http://linktr.ee/mjfutera */
 
 @import "./animations.css";
-@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+@font-face {
+    font-family: Minecraft;
+    src: url('./img/minecraft.ttf');
+}
 
 body {
     background-image: url("./img/background.jpg");
@@ -13,6 +16,10 @@ body {
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
+}
+
+.minecraftFont {
+    font-family: Minecraft;
 }
 
 .vertical-center {
@@ -53,10 +60,11 @@ body {
     animation: glowingShadows 2s infinite
 }
 
-/* .cartoonFont {
-    font-family: 'Mynerve', cursive;
-} */
+.discordWidget {
+    width: 100%;
+    height: 40vh;
+}
 
-/* .tintedBackground {
-    background-color: rgba(0, 0, 0, 1);
-} */
+.testColor {
+    background-color: black;
+}

@@ -1,5 +1,5 @@
 <!-- ZivahowyServer Wordpress template -->
-<!-- v. 1.000 -->
+<!-- v. 1.001 -->
 <!-- By Michal Futera -->
 <!-- http://linktr.ee/mjfutera -->
 
@@ -21,19 +21,27 @@
 <body>
     <nav class="topMenu container text-center blueNeon bg-white rounded">
         <div class="row">
-            <div class="col col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 p-1"><input type="search" placeholder="Szukaj"></div>
-            <div class="col col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 p-1">Menu</div>
+            <div class="col col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 p-1"><input type="search" placeholder="Szukaj" class="minecraftFont text-center form-control"></div>
+            <div class="col col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 p-1 minecraftFont">Menu</div>
         </div>
     </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 bg-white rounded mt-1 blueNeon text-center p-2">
+                <h1 class="minecraftFont glowingText">Serwer Zivahowo-Minecraftowy</h1>
+                <span id="subtitle"></span>
+            </div>
+        </div>
+    </div>
     <header class="container">
         <div class="row">
-            <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 align-items-center text-center p-5">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 align-items-center text-center pt-5">
                 <img src="../img/zivahGames.png" alt="Moniczkowy Serwer" srcset="" class="logo pinkNeon">
             </div>
-            <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 align-items-center text-center p-5">
-                <div class="bg-white p-5 rounded pinkNeon cartoonFont" onclick="copyToClipboard('ipservera')">
-                    <h3 class="h3"><b>Kliknij tutaj, aby skopiować dane do serwera</b></h3>
-                    <h5 class="h5">IP: <b id="ipservera" class="glowingText">147.135.160.192:25598</b></h5>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 align-items-center text-center p-5">
+                <div class="bg-white p-5 rounded pinkNeon minecraftFont" onclick="copyToClipboard('ipservera')">
+                    <h3 class="h3"><b>Kliknij tutaj, aby skopiowac dane do serwera</b></h3>
+                    <h5 class="h5">IP: <b id="ipservera" class="glowingText text-center">147.135.160.192:25598</b></h5>
                     Dla bedrocka:<br>
                     IP:147.135.160.192<br>
                     Port:8021
@@ -41,19 +49,27 @@
             </div>
         </div>
     </header>
-    <div class="tintedBackground">
         <div class="container bg-white blueNeon rounded">
-            <div class="row p-1">
-                <div class="col col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
-                    <h1>Lorem ipsum</h1>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias quod dolorum minus cupiditate, quis consequatur in beatae ipsam aliquid blanditiis suscipit tenetur quae voluptas cumque corrupti eveniet aut maiores nostrum voluptatum! Quod magni repellat adipisci tempore, ratione, natus sed minus id vel et cupiditate officia quam laboriosam saepe cumque facilis ullam delectus a earum iste incidunt fugit cum? In rerum maiores mollitia delectus deserunt consequatur dignissimos est, blanditiis deleniti, impedit laboriosam non dicta nostrum illum sunt reprehenderit, culpa exercitationem! Atque odit voluptatum nostrum ex dignissimos eius quos inventore necessitatibus vitae, quam aspernatur totam similique culpa architecto aperiam harum reprehenderit maiores, nulla laborum iure deleniti. Esse nesciunt doloribus doloremque numquam eum quae quos? Unde nostrum labore nemo sunt deleniti fugiat laboriosam voluptas, sequi consequuntur quod quia, facilis magnam porro atque quo dolor facere. Perspiciatis est cumque voluptate nemo quo, dignissimos possimus quam doloribus rerum, asperiores nobis non exercitationem neque animi autem laboriosam harum adipisci. Dolore exercitationem ipsa suscipit tempore quam veniam, aliquam quae aut laboriosam. Similique ea amet veniam nesciunt culpa enim deserunt non dolores distinctio tenetur, praesentium dolorem nemo. Delectus quas debitis error repudiandae. Maxime inventore dolorem accusantium velit totam eligendi nulla. Tempora, voluptatem consequatur. Voluptatibus facilis error repudiandae quia mollitia quod, eveniet aliquid blanditiis eos possimus in? Veniam est optio dolorum animi nostrum deleniti dignissimos fuga eaque saepe esse aperiam consequatur quos quis sequi, laudantium tempore ab facere beatae, dolores consectetur eligendi deserunt incidunt eos? Eos autem blanditiis magni, alias laborum, dolores ea quae commodi, fuga nam accusantium obcaecati explicabo! Enim sequi similique sunt earum dolorem. Ipsa ullam nobis quidem corporis provident! Alias voluptatibus ipsa autem ullam amet architecto vitae soluta dolores doloribus ratione neque maiores quam necessitatibus eius fugit unde adipisci iusto omnis assumenda in, delectus iure. Porro commodi quis doloremque tempora aperiam, numquam explicabo. Illum, corporis culpa!
+            <div class="row p-3 text-center">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <h5>Info o serwerze:</h5>
+                        Status: <b id="serverStatus">offline</b>, Maxymalna ilość graczy: <b id="serverMaxPlayers">100</b>, Ilość aktualnie grających: <b id="serverCurrentPlayers">0</b><br>Aktualni gracze: <b id="serverCurrentPlayerList">NOBODY</b>
                 </div>
-                <div class="col col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                    <h4 class="text-center">Widgety</h4>
+                
+            </div>
+        </div>
+        <div class="container bg-white blueNeon rounded mt-2">
+            <div class="row p-3">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9" rowspan="2">
+                    <h1 class="minecraftFont">Lorem ipsum</h1>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quo maxime, necessitatibus, totam sint tenetur corrupti debitis temporibus aliquid eligendi reprehenderit et facilis eum eveniet. Exercitationem dicta veniam vel ipsam blanditiis, aspernatur excepturi sit maxime, reiciendis, voluptate eum nostrum iste ex architecto quibusdam! Possimus aut ipsum deserunt ad quia iste ex at quae nihil voluptates aliquid repellat accusantium temporibus facere maxime, officiis voluptatem quisquam debitis earum numquam ut. Corporis, velit eaque! Quasi similique doloremque, alias quos tenetur eos, dolores natus ad odio iste labore ea sunt, voluptatum dignissimos? Rem, velit ullam aperiam optio quasi neque assumenda eos animi nisi doloremque impedit laboriosam corrupti natus fuga, sequi quas distinctio. Id voluptas distinctio recusandae illum excepturi, porro et, ex natus repellendus expedita dolorum! Corporis magnam dicta perferendis eligendi, at libero, laboriosam quos maiores nostrum, explicabo praesentium voluptate tempore atque consequatur. Ipsa labore odio dolore at pariatur ut sit vel necessitatibus laborum aut maiores, iste optio facere sunt perspiciatis minus asperiores nesciunt ea autem odit. Non ipsam, deserunt quam hic facere earum dolorem, ducimus dolor ipsa harum, consequatur neque veniam exercitationem quod iusto voluptas blanditiis repudiandae! Placeat, doloribus illum. Molestiae voluptatum odit perspiciatis soluta debitis eius, harum atque? Fugit neque quia perspiciatis in consequatur maiores! Expedita cumque suscipit aliquam laboriosam recusandae nisi qui aspernatur odit quasi labore eaque optio voluptates quidem facilis quisquam, possimus ullam quibusdam iure quae unde, consequatur voluptatum sunt dolorem voluptate. Eos eius laudantium doloremque quas quibusdam eligendi autem ipsum atque pariatur beatae facere quaerat provident, ad deserunt rem voluptates. Sint laudantium provident esse officiis reiciendis ea unde aliquam dolorem deserunt soluta, dolor aperiam, animi tempore, odit adipisci rem quia non sit. Nihil nobis sed aperiam, necessitatibus quasi ad corrupti magnam amet odio modi omnis quidem saepe repudiandae commodi, fuga maiores voluptas. Cumque aliquam eos, modi dicta similique cum consectetur excepturi incidunt nulla? Accusamus temporibus debitis eligendi expedita officiis saepe recusandae natus voluptatum magni placeat ex ut ad ea iusto reprehenderit, consectetur cupiditate necessitatibus quia! Nihil fugit laudantium ea, sequi voluptatum dignissimos ipsum odit amet enim fugiat laboriosam voluptates aut nam soluta assumenda omnis cumque sapiente deleniti! Commodi fugit consectetur corporis ipsum qui? Fugit consequuntur ipsa sapiente quae dicta placeat quam officia labore eos dolorem aliquid ad ea sed dolores esse eaque alias accusamus similique dolore perferendis nostrum eligendi harum, rem vero! Exercitationem provident illo hic ut quo maiores aperiam at reprehenderit adipisci tenetur! Vitae eaque, mollitia dolores magnam ratione esse optio. Ratione, repellendus, repellat dicta atque quidem, incidunt sed dolore esse voluptate repudiandae assumenda at beatae. Quam, libero quas animi vitae aliquid provident ut atque ex dolorem nihil nesciunt laudantium labore itaque tempora maiores voluptas repellat minima sunt illum quaerat aliquam id. Accusamus error ratione itaque quidem non aliquid a placeat corrupti alias natus, fugiat aperiam aspernatur molestiae voluptatum? Nesciunt aut pariatur atque labore vel! Distinctio dolore, iure aspernatur natus illum esse? Saepe assumenda fugiat unde rem magnam iure corporis delectus expedita sed suscipit aperiam asperiores, blanditiis incidunt quibusdam quos, earum repellendus nobis ratione. Aut ducimus modi perferendis minus impedit assumenda consequatur ea sapiente, vel numquam itaque cupiditate consectetur quam in, labore, omnis libero dolore cumque a architecto aliquid corrupti sit provident. Maiores, reiciendis! Ea culpa enim cum nam quasi, commodi aspernatur vel sapiente velit ipsam inventore rem voluptatibus dolore totam optio amet eaque at ab animi dignissimos numquam magnam nesciunt nulla. Quia natus animi cum in necessitatibus exercitationem deserunt numquam labore? Odio, obcaecati unde. Totam consectetur non temporibus ipsa culpa, magni ex reiciendis rerum, maiores fugit dolores neque sunt saepe quidem voluptatibus. Et impedit minima dolorem, rerum hic nobis, porro inventore, autem eligendi ipsam cumque quasi! Aspernatur, cupiditate!    
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 mt-1">
+                    <h4 class="text-center minecraftFont">Widgety</h4>
+                    <iframe src="https://discord.com/widget?id=483628561152868373&theme=dark" class="discordWidget" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                 </div>
             </div>
         </div>
-    </div>
     <script 
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
