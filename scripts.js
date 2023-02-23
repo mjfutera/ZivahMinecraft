@@ -1,5 +1,5 @@
 // ZivahowyServer Wordpress template
-// v. 1.001
+// v. 1.002
 // By Michal Futera
 // http://linktr.ee/mjfutera
 
@@ -26,9 +26,11 @@ const serverData = async () => {
     document.getElementById("serverCurrentPlayerList").innerText = data['players']['sample'].map(e=>e['name']).join(', ');
 
   }
-  setTimeout("serverData", 30000);
+  setTimeout(serverData, 30000);
 }
 
 window.onload = () => {
   serverData();
+  const data = new Date();
+  document.getElementById("currentYear").innerText = data.getFullYear();
 };
