@@ -1,5 +1,5 @@
 // ZivahowyServer Wordpress template
-// v. 1.002
+// v. 1.003
 // By Michal Futera
 // http://linktr.ee/mjfutera
 

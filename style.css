@@ -1,5 +1,5 @@
 /* ZivahowyServer Wordpress template */
-/* v. 1.002 */
+/* v. 1.003 */
 /* By Michal Futera */
 /* http://linktr.ee/mjfutera */
 
@@ -67,4 +67,16 @@ body {
 
 .testColor {
     background-color: black;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+  
+.zoom:hover {
+    transform: scale(1.25);
+}
+
+a {
+    text-decoration: none;
 }
