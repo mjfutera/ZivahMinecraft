@@ -83,3 +83,7 @@ body {
 a {
     text-decoration: none;
 }
+
+.postHeaderMain {
+    width: 100%;
+}

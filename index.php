@@ -8,8 +8,34 @@
         <div class="container bg-white rounded mt-2">
             <div class="row p-3">
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9" rowspan="2">
-                    <h1 class="minecraftFont">Lorem ipsum</h1>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quo maxime, necessitatibus, totam sint tenetur corrupti debitis temporibus aliquid eligendi reprehenderit et facilis eum eveniet. Exercitationem dicta veniam vel ipsam blanditiis, aspernatur excepturi sit maxime, reiciendis, voluptate eum nostrum iste ex architecto quibusdam! Possimus aut ipsum deserunt ad quia iste ex at quae nihil voluptates aliquid repellat accusantium temporibus facere maxime, officiis voluptatem quisquam debitis earum numquam ut. Corporis, velit eaque! Quasi similique doloremque, alias quos tenetur eos, dolores natus ad odio iste labore ea sunt, voluptatum dignissimos? Rem, velit ullam aperiam optio quasi neque assumenda eos animi nisi doloremque impedit laboriosam corrupti natus fuga, sequi quas distinctio. Id voluptas distinctio recusandae illum excepturi, porro et, ex natus repellendus expedita dolorum! Corporis magnam dicta perferendis eligendi, at libero, laboriosam quos maiores nostrum, explicabo praesentium voluptate tempore atque consequatur. Ipsa labore odio dolore at pariatur ut sit vel necessitatibus laborum aut maiores, iste optio facere sunt perspiciatis minus asperiores nesciunt ea autem odit. Non ipsam, deserunt quam hic facere earum dolorem, ducimus dolor ipsa harum, consequatur neque veniam exercitationem quod iusto voluptas blanditiis repudiandae! Placeat, doloribus illum. Molestiae voluptatum odit perspiciatis soluta debitis eius, harum atque? Fugit neque quia perspiciatis in consequatur maiores! Expedita cumque suscipit aliquam laboriosam recusandae nisi qui aspernatur odit quasi labore eaque optio voluptates quidem facilis quisquam, possimus ullam quibusdam iure quae unde, consequatur voluptatum sunt dolorem voluptate. Eos eius laudantium doloremque quas quibusdam eligendi autem ipsum atque pariatur beatae facere quaerat provident, ad deserunt rem voluptates. Sint laudantium provident esse officiis reiciendis ea unde aliquam dolorem deserunt soluta, dolor aperiam, animi tempore, odit adipisci rem quia non sit. Nihil nobis sed aperiam, necessitatibus quasi ad corrupti magnam amet odio modi omnis quidem saepe repudiandae commodi, fuga maiores voluptas. Cumque aliquam eos, modi dicta similique cum consectetur excepturi incidunt nulla? Accusamus temporibus debitis eligendi expedita officiis saepe recusandae natus voluptatum magni placeat ex ut ad ea iusto reprehenderit, consectetur cupiditate necessitatibus quia! Nihil fugit laudantium ea, sequi voluptatum dignissimos ipsum odit amet enim fugiat laboriosam voluptates aut nam soluta assumenda omnis cumque sapiente deleniti! Commodi fugit consectetur corporis ipsum qui? Fugit consequuntur ipsa sapiente quae dicta placeat quam officia labore eos dolorem aliquid ad ea sed dolores esse eaque alias accusamus similique dolore perferendis nostrum eligendi harum, rem vero! Exercitationem provident illo hic ut quo maiores aperiam at reprehenderit adipisci tenetur! Vitae eaque, mollitia dolores magnam ratione esse optio. Ratione, repellendus, repellat dicta atque quidem, incidunt sed dolore esse voluptate repudiandae assumenda at beatae. Quam, libero quas animi vitae aliquid provident ut atque ex dolorem nihil nesciunt laudantium labore itaque tempora maiores voluptas repellat minima sunt illum quaerat aliquam id. Accusamus error ratione itaque quidem non aliquid a placeat corrupti alias natus, fugiat aperiam aspernatur molestiae voluptatum? Nesciunt aut pariatur atque labore vel! Distinctio dolore, iure aspernatur natus illum esse? Saepe assumenda fugiat unde rem magnam iure corporis delectus expedita sed suscipit aperiam asperiores, blanditiis incidunt quibusdam quos, earum repellendus nobis ratione. Aut ducimus modi perferendis minus impedit assumenda consequatur ea sapiente, vel numquam itaque cupiditate consectetur quam in, labore, omnis libero dolore cumque a architecto aliquid corrupti sit provident. Maiores, reiciendis! Ea culpa enim cum nam quasi, commodi aspernatur vel sapiente velit ipsam inventore rem voluptatibus dolore totam optio amet eaque at ab animi dignissimos numquam magnam nesciunt nulla. Quia natus animi cum in necessitatibus exercitationem deserunt numquam labore? Odio, obcaecati unde. Totam consectetur non temporibus ipsa culpa, magni ex reiciendis rerum, maiores fugit dolores neque sunt saepe quidem voluptatibus. Et impedit minima dolorem, rerum hic nobis, porro inventore, autem eligendi ipsam cumque quasi! Aspernatur, cupiditate!    
+                    <div class="container">
+                        <div class="row bg-light">
+                            <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 p-1 text-center">
+                                <img src="<?php echo get_template_directory_uri()?>/img/testheader.png" class="postHeaderMain">
+                            </div>
+                            <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 p-1 text-center">
+                                Test
+                            </div>
+                            <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 p-1 text-center">
+                                Test
+                            </div>
+                            <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 p-1 text-center">
+                                Test
+                            </div>
+                            <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 p-1 text-center">
+                                Test
+                            </div>
+                            <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 p-1 text-center">
+                                Test
+                            </div>
+                            <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 p-1 text-center">
+                                Test
+                            </div>
+                            <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 p-1 text-center">
+                                Test
+                            </div>
+                        </div>
+                    </div>   
                 </div>
                 <?php get_sidebar(); ?>
             </div>
