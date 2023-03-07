@@ -84,6 +84,15 @@ a {
     text-decoration: none;
 }
 
-.postHeaderMain {
+.size-post-thumbnail {
     width: 100%;
+}
+
+@media all and (min-width: 768px) {
+    .size-post-thumbnail {
+        aspect-ratio: 1/1; /* ustalenie szerokości obrazka */
+        height: 250px; /* ustalenie wysokości obrazka */
+        object-fit: none; /* wyłączenie domyślnego dopasowywania obrazka */
+        object-position: left; /* ustalenie pozycji obrazka */
+    }
 }

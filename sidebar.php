@@ -4,6 +4,7 @@
 <!-- http://linktr.ee/mjfutera -->
 
 <div class="col col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 mt-1">
+    <?php dynamic_sidebar( 'widgets_area_1' ); ?>
     <iframe src="https://discord.com/widget?id=483628561152868373&theme=dark" 
         class="discordWidget" 
         allowtransparency="true" 
